@@ -41,7 +41,8 @@ platform :android do
       upload_to_play_store(
         track: 'internal',
         release_status: 'draft',
-        aab: '/Users/Herman/Downloads/Zap/zapX/build/app/outputs/bundle/release/app-release.aab'
+        aab: '../build/app/outputs/bundle/release/app-release.aab'
+#         aab: '/Users/Herman/Downloads/Zap/zapX/build/app/outputs/bundle/release/app-release.aab'
       )
     end
 end
