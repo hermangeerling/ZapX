@@ -10,10 +10,12 @@
 #flutter doctor
 
 # Get packages
-flutter packages get
+#flutter packages get
 
 # Update generated files
-flutter pub run build_runner build
+#flutter pub run build_runner build
 
 # Build ios app
-flutter build ios --no-codesign
+#flutter build ios --no-codesign
+
+echo "just testing"
